@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(14, 98, 255);
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+.title {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#firstNumber {
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: rgb(0, 140, 255);
+    background-color: rgb(179, 229, 238);
+    font-size: 20px;
+    text-align: center;
+}
+
+#secondNumber {
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: rgb(0, 140, 255);
+    background-color: rgb(179, 229, 238);
+    font-size: 20px;
+    text-align: center;
+}
+
+#operator {
+    width: 10px;
+    border-color: rgb(0, 140, 255);
+    text-align: center;
+}
+
+#firstNumber::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 140, 255);
+}
+
+#secondNumber::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 140, 255);
+}
+
+#calculate {
+    display: flex;
+    justify-content: center;
+}
+
+#submitButton {
+    width: 200px;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: white;
+}
